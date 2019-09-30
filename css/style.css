@@ -1,0 +1,99 @@
+#wrapper {
+    margin:1em;
+}
+
+.itm-table {
+    background-color: #ffeeaa;
+    border:solid 5px #ffdd55;
+}
+
+.itm-table td {
+    padding:0 5px;
+}
+
+label.itm-label {
+    width:200px;
+    display:block;
+    float:left;
+}
+
+span.radio-label {
+	font-weight: bold;
+	padding-right: 1em;
+}
+
+td#result {
+    width:110px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 200%;
+}
+
+input:invalid {
+    border: #bb0000 solid 1px !important;
+}
+
+#ratio {
+	padding: 1em;
+    border: rgba(240,146,14,1) solid .4em;
+    width: 6em;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    display: none;
+    float: left;
+    margin-right: .5em
+}
+
+.green {
+	background-color: #ccff99;
+}
+
+.orange {
+	background-color: #f5b754;
+	color: white;
+}
+
+.red {
+	background-color: #f73d36;
+	color: white;
+}
+
+.active {
+    background-color: #ff0;
+}
+
+.isk-results {
+    display:flex;
+    flex-wrap:wrap;
+}
+.isk-results > div {
+    width: 33%;
+    min-height: 100px;
+    border: solid 1px #ddd;
+    text-align: center;
+}
+
+.isk-results span {
+    display:block;
+    background-color: #c0c0c0;
+    line-height: 1;
+    font-size: 16px;
+    padding:.5em 0;
+    margin:.5em;
+    min-height: 3em;
+}
+
+.isk-results .error {
+    width:99%;
+    border: solid 1px #bb0000;
+}
+
+.isk-results  .sidenotes {
+    width: 100%; 
+    border: none; 
+    text-align: left; 
+    font-size:80%;
+}
+
+
